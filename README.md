@@ -1,12 +1,5 @@
 # mapONT - mappimg of ONT long-read RNA seq
 `snakemake` to map ONT long-read RNA seq data
-<!-- badges: start -->
-![Maintainer](https://img.shields.io/badge/maintainer-egustavsson-blue)
-![Generic badge](https://img.shields.io/badge/WMS-snakemake-blue.svg)
-![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
-![Linux](https://svgshare.com/i/Zhy.svg)
-![Lifecycle:maturing](https://img.shields.io/badge/lifecycle-maturing-blue.svg)
-<!-- badges: end -->
 
 mapONT is a `snakemake` pipeline that takes Oxford Nanopore Technology (ONT) data (fastq) as input, generates fastq stats using `nanostat`, performs fastq processing and filtering using `pychopper`, map the reads to the genome using `minimap2`. 
 
