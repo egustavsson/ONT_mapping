@@ -1,5 +1,5 @@
 # mapONT - mappimg of ONT long-read RNA seq
-snakemake to map ONT long-read RNA seq data
+`snakemake` to map ONT long-read RNA seq data
 <!-- badges: start -->
 ![Maintainer](https://img.shields.io/badge/maintainer-egustavsson-blue)
 ![Generic badge](https://img.shields.io/badge/WMS-snakemake-blue.svg)

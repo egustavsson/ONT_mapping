@@ -1,0 +1,17 @@
+## General pipeline parameters:
+## For optional parameters either leave empty string ("") or comment out ("#") the parameter
+
+# working directory (required):
+workdir: ""
+
+# prefix of all output files (optional; default = "sample")
+sample_name: ""
+
+# reference genome as .fa (required)
+genome: "/media/data/Sid/Annotation/Homo_sapiens.GRCh38.dna.primary_assembly_mod.fa"
+
+# ONT reads in fastq format
+reads_fastq: ""
+
+# threads (default = 30)
+threads: 30
