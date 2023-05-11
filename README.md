@@ -16,8 +16,7 @@ mapONT is a `snakemake` pipeline that takes Oxford Nanopore Technology (ONT) dat
 ## Input
 
 - ONT fastq reads
-- Reference genome assembly in fasta format
-- GTF: [Gencode GTF](https://www.gencodegenes.org/human/); tested on v38 comprehensive CHR gene annotation
+- Reference genome assembly in fasta format; have been tested on GRCh38.p13.genome.fa available from [GENCODE](https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_43/)
 
 ## Depedencies
 
