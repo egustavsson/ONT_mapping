@@ -39,23 +39,11 @@ sample = config["sample_name"]
 
 rule all:
     input:
-        "Read_stat/stat_out.txt",
+        "Nanostat/stat_out.txt",
         "processed_reads/input_reads.fq",
         "processed_reads/full_length_reads.fq",
         "alignments/minimap.bam"
 
-# ---------------------------------------------------
-
-rule read_stat:
-    input:
-        FQ = config["reads_fastq"]
-    output:
-        nanostat = "Read_stat/stat_out.txt"
-    threads: config["threads"]
-    shell:
-        """
-        NanoStat -n {output.nanostat} -t {threads} --tsv --fastq {input.FQ}
-        """
 # ---------------------------------------------------
 
 rule nanostat:
