@@ -13,5 +13,5 @@ genome: "/media/data/Sid/Annotation/Homo_sapiens.GRCh38.dna.primary_assembly_mod
 # ONT reads in fastq format
 reads_fastq: ""
 
-# threads (default = 30)
-threads: 30
+# threads (default = 10)
+threads: 100
